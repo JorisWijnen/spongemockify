@@ -22,8 +22,7 @@ def main():
         else:
             new_string += c
 
-    print("\n")
-    print(new_string)
+    print("\n" + new_string)
 
 if __name__ == '__main__':
     main()
