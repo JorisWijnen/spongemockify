@@ -1,4 +1,6 @@
 # spongemockify
+![spongemock](https://github.com/JorisWijnen/spongemockify/blob/main/images/spongemock.png "SpongeMock")
+
 Small python3 tool that creates 'spongemock' text from command line input.
 
 you can create a symlink with
