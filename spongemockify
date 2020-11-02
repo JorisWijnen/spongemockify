@@ -1,0 +1,29 @@
+#!/usr/bin/python3
+import sys
+
+def main():
+    # Check if there are parameters set
+    if len(sys.argv) < 2:
+        print("Please insert a string after the command")
+        quit()
+
+    # Add first parameter to string
+    # In case of multiple parameters, add them separated by a space
+    string = sys.argv[1]
+    for arg in sys.argv[2:]:
+        string += " "
+        string += arg
+
+    # Uppercase every character at even index
+    new_string = "";
+    for i, c in enumerate(string.lower()):
+        if (i%2) == 0:
+            new_string += c.swapcase()
+        else:
+            new_string += c
+
+    print("\n")
+    print(new_string)
+
+if __name__ == '__main__':
+    main()
