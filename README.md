@@ -1,5 +1,5 @@
 # spongemockify
-![spongemock](https://github.com/JorisWijnen/spongemockify/blob/main/images/spongemock.png "SpongeMock")
+![spongemock](https://github.com/JorisWijnen/spongemockify/blob/main/images/spongemock.jpg "SpongeMock")
 
 Small python3 tool that creates 'spongemock' text from command line input.
 
