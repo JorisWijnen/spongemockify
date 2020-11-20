@@ -23,7 +23,7 @@ The output is copied to the clipboard if xclip or xsel is installed.
 ## The algorithm
 
 For each character in the string
- - randomize an integer from 1 to VARIABLE_RANGE (starts at 10)
+ - randomize an integer from 1 to [variable_range] (starts at 10)
  - If integer is 5 or lower, the character is capitalized and the random range is increased by 1
  - If integer is higher than 5 (thus a lowercase letter), decrease the range by 1
 
