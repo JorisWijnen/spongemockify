@@ -19,3 +19,12 @@ It will concatenate all arguments to one string, so quotation marks are not need
 The output is copied to the clipboard if xclip or xsel is installed.  
 `sudo apt-get install xclip`  
 `sudo apt-get install xsel` (Note: xsel does not always seem to work.)
+
+## The algorith
+
+For each character in the string
+ - randomize an integer from 1 to VARIABLE_RANGE (starts at 10)
+ - If integer is 5 or lower, the character is capitalized and the random range is increased by 1
+ - If integer is higher than 5 (thus a lowercase letter), decrease the range by 1
+
+This will make is less likely to have back to back strings of multiple uppercase and lowercase letters
