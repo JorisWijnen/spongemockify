@@ -16,5 +16,5 @@ https://stackoverflow.com/questions/39663091/how-can-i-add-a-python-script-to-th
 
 It will concatenate all arguments to one string, so quoation marks are not needed.This helps with pasting a copied text after the command.
 
-The output is copied to the clipboard if xclip is installed.
+The output is copied to the clipboard if xclip is installed.  
 `sudo apt-get install xclip`
