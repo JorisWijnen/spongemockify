@@ -1,7 +1,7 @@
 # spongemockify
 ![spongemock](https://github.com/JorisWijnen/spongemockify/blob/main/images/spongemock.jpg "SpongeMock")
 
-Small python3 tool that creates 'spongemock' text from command line input.
+Small python3 tool that creates *spongemock* text from command line input.
 
 ### Linux
 To run the tool from the command line from anywhere in Linux, you can create a symlink to `/usr/bin/` with  
