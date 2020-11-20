@@ -1,12 +1,16 @@
 # spongemockify
 ![spongemock](https://github.com/JorisWijnen/spongemockify/blob/main/images/spongemock.jpg "SpongeMock")
 
-### Created for Linux
-
 Small python3 tool that creates 'spongemock' text from command line input.
 
-you can create a symlink with
+### Linux
+To run the tool from the command line from anywhere in Linux, you can create a symlink to `/usr/bin/` with
 `sudo ln -s PATH_TO_REPOSITORY/spongemockify /usr/bin/spongemockify`
+
+### Windows
+To run the tool from the command line from anywhere in Windows, you have to add the script to the PATH.
+https://stackoverflow.com/questions/39663091/how-can-i-add-a-python-script-to-the-windows-system-path
+(Not tested)
 
 #### Easy copy paste access
 
