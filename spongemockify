@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import sys
+import random
 import pyperclip as pc
 from termcolor import colored
 
@@ -17,13 +18,18 @@ def main():
         string += " "
         string += arg
 
-    # Uppercase every character at even index
+    # Algorithm
     new_string = "";
+    random_int_range = 10
     for i, c in enumerate(string.lower()):
-        if (i%2) == 0:
+        random_int = random.randint(1,random_int_range)
+        if (random_int <= 5):
             new_string += c.swapcase()
+            random_int_range += 1
         else:
             new_string += c
+            random_int_range -= 1
+
 
     print("\n" + new_string)
     pc.copy(new_string)
