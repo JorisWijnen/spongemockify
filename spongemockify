@@ -20,15 +20,15 @@ def main():
 
     # Algorithm
     new_string = "";
-    random_int_range = 10
+    chance_of_capital_letter = 50
     for i, c in enumerate(string.lower()):
-        random_int = random.randint(1,random_int_range)
-        if (random_int <= 5):
+        random_int = random.randint(1,100)
+        if (random_int <= chance_of_capital_letter):
             new_string += c.swapcase()
-            random_int_range += 1
+            chance_of_capital_letter -= 20
         else:
             new_string += c
-            random_int_range -= 1
+            chance_of_capital_letter += 20
 
 
     print("\n" + new_string)
