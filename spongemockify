@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 import sys
+import pyperclip as pc
+from termcolor import colored
+
 
 def main():
     # Check if there are parameters set
@@ -23,6 +26,8 @@ def main():
             new_string += c
 
     print("\n" + new_string)
+    pc.copy(new_string)
+    print(colored("Output is copied to the clipboard!", "green"))
 
 if __name__ == '__main__':
     main()
