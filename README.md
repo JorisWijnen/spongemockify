@@ -8,4 +8,6 @@ you can create a symlink with
 
 #### Easy copy paste access
 
-It will concatenate all arguments to one string, so quoation marks are not needed.
+It will concatenate all arguments to one string, so quoation marks are not needed.This helps with pasting a copied text after the command.
+
+The output is copied to the clipboard
