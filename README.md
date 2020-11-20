@@ -27,4 +27,4 @@ For each character in the string
  - If integer is lower than CHANCE_OF_CAPITAL_LETTER (Starts at 50), the character is capitalized and the CHANCE_OF_CAPITAL_LETTER is decreased by 20.
  - If integer is higher than CHANCE_OF_CAPITAL_LETTER, the caracter remains lowercase and CHANCE_OF_CAPITAL_LETTER is increased by 20.
 
-This will make is less likely to have back to back strings of multiple uppercase and lowercase letters
+This will make is less likely to have back to back strings of multiple uppercase or lowercase letters
