@@ -4,7 +4,7 @@
 Small python3 tool that creates 'spongemock' text from command line input.
 
 ### Linux
-To run the tool from the command line from anywhere in Linux, you can create a symlink to `/usr/bin/` with
+To run the tool from the command line from anywhere in Linux, you can create a symlink to `/usr/bin/` with  
 `sudo ln -s PATH_TO_REPOSITORY/spongemockify /usr/bin/spongemockify`
 
 ### Windows
