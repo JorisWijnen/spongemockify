@@ -20,7 +20,7 @@ The output is copied to the clipboard if xclip or xsel is installed.
 `sudo apt-get install xclip`  
 `sudo apt-get install xsel` (Note: xsel does not always seem to work.)
 
-## The algorith
+## The algorithm
 
 For each character in the string
  - randomize an integer from 1 to VARIABLE_RANGE (starts at 10)
